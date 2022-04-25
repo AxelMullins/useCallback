@@ -1,6 +1,7 @@
 # UseCallback - Hook
 
-- use useCallback if we have our function in dependency array on useEfect.
+- Hook que se utiliza para memorizar funciones puras.
+- Usamos este hook en caso de que nuestra funcion sea pasada como dependencia en un useEffect (para no crear un loop infinito)
 
 ## Notas 📢
 
